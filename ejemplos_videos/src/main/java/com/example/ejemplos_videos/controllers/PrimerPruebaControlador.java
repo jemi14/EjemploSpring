@@ -14,5 +14,11 @@ public class PrimerPruebaControlador {
 		return "IniciandoPagina";
 		
 	}
+	
+	@GetMapping("")
+	public String inicio() {
+		return "index";
+		
+	}
 
 }
